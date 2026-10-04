@@ -47,7 +47,60 @@
 | Manage user accounts and roles | No | No | Yes |
 #### Administrators are not authorized to view patient data, so they should not be able to read or export patient's medical data. Doctors already have the patients' data, so it should be ok for them to schedule, update or cancel appointments.
 ## 4. Product backlog
+#### US-20: As any staff member, I want to log in, so that I can reach only the functionality my role permits.
+#### US-17: As an administrator, I want to create a user account and assign a role, so that users are aware of their privileges.
+#### US-14: As an administrator, I want to register a doctor with a specialization, so that the hospital is aware of which services are offered.
+#### US-01: As a receptionist, I want to register a new patient with their name, date of birth and contact details, so that the patient can be booked for an appointment.
+#### US-05: As a receptionist, I want to schedule an appointment, so that the hospital stays organized and the doctor isn't double booked.
+#### US-10: As a doctor, I want to record diagnosis and visit notes, so that the patient's data isn't forgotten or missed.
+#### US-08: As a doctor, I want to view my scheduled appointments, so that I can plan my day accordingly and get ready for each patient.
+#### US-07: As a receptionist, I want to view existing appointments, so that I can monitor the current schedule
+#### US-02: As a receptionist, I want to search for an existing patient, so that useful patient info can be found.
+#### US-09: As a doctor, I want to open the record of a patient I am seeing, so that I can be reminded on their information.
+#### US-11: As a doctor, I want to Read a patient's previous records, so that I can see if the patient's history relates to current issues.
+#### US-06: As a receptionist, I want to update or cancel an appointment, so that old/cancelled appointments don't overlap with another appointment.
+#### US-03: As a receptionist, I want to edit patient contact details, so that the hospital can contact the patient.
+#### US-15: As an administrator, I want to update doctor details, so that the hospital has up-to-date info.
+#### US-19: As an administrator, I want to manage user accounts and roles, so that I can organize the hospital effectively.
+#### US-13: As a doctor, I want to view other doctor specializations, so that I can coordinate referrals.
+#### US-12: As a doctor, I want to export my authorized data to CSV, so that I can the complete picture of all of all my patients.
+#### US-04: As a receptionist, I want to deactivate a patient record, so that a deactivated patient's data isn't stored without their consent.
+#### US-16: As an administrator, I want to deactivate an unavailable doctor, so that appointments only happen with current, existing doctors.
+#### US-18: As an administrator, I want to deactivate a user account, so that unavailable users' data isn't being stored without their consent.
+#### I picked the top three because nothing can be demonstrated before login exists. Nothing books an appointment before patients and doctors exist.
+#### US-20 — Login and Role-Based Access Control
+#### • Given a receptionist user enters valid credentials on the login page, when they click "Log In", then they are authenticated and redirected to the receptionist dashboard.
+#### • Given a doctor already has an appointment at 10:00 on 14 October, when a receptionist tries to book the same doctor at 10:00 on 14 October, then the system refuses and explains why
+#### • Given an administrator is on the registration page, when they enter a doctor's name, contact details, and medical specialization and click "Register", then the doctor is added to the system and marked as available for appointments.
+#### Definition of Done:
+#### • Merged into main through a pull request, never pushed directly
+#### • Unit tests written and passing in CI
+#### • The end-to-end test for the affected flow is green
+#### • The container image builds and is published to GHCR
+#### • README updated if a requirement or decision changed
+
 ## 5. Process and ceremonies
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
