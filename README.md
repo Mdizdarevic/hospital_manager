@@ -33,7 +33,19 @@
 #### NFR-08: A documented branching strategy and a versioning scheme for artefacts.
 ## 3. Roles and access control
 #### This application has three roles: Receptionist, Doctor, and Administrator. The Receptionist owns patient records and the appointment calendar. Registers, searches, edits and deactivates patients; schedules, updates and cancels appointments. Never touches clinical notes. Doctor sees the patients who have appointments with them. Records visit date, diagnosis and notes after a consultation, reads previous records, exports authorized data to CSV. Administrator manages the doctor register and system user accounts. Registers, updates and deactivates doctors; assigns roles. Not a clinical role. The patient is data, not a user. While there may be benefits to letting a patient be a role in cases (such as being able to log in to their account, book their own appointment, or read their own record), it is better to not give them these capabilities, as it may cause issues in the application and confusion between all the roles.
-
+| Capability | Receptionist | Doctor | Administrator |
+| :--- | :--- | :--- | :--- |
+| Register, search and edit a patient | Yes | No | Yes |
+| Deactivate a patient record | Yes | No | Yes |
+| Register, update or deactivate a doctor | No | No | Yes |
+| Schedule an appointment | Yes | Yes | Yes |
+| View appointments | All | Own only | All |
+| Update or cancel an appointment | Yes | Yes | Yes |
+| Record diagnosis and visit notes | No | Yes | No |
+| Read a patient's medical history | No | Own patients | No |
+| Export authorised data to CSV | No | Yes | No |
+| Manage user accounts and roles | No | No | Yes |
+#### Administrators are not authorized to view patient data, so they should not be able to read or export patient's medical data. Doctors already have the patients' data, so it should be ok for them to schedule, update or cancel appointments.
 ## 4. Product backlog
 ## 5. Process and ceremonies
 
