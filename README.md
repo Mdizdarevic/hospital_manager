@@ -80,6 +80,18 @@
 #### • README updated if a requirement or decision changed
 
 ## 5. Process and ceremonies
+#### Spring length - 2 weeks (4 sprints total)
+#### 2 weeks is best because it makes sure I have time to do other schoolwork, while also keeping me on track to find on time.
+#### • Sprint 1: Repo setup, branching strategy, Auth/RBAC, basic CI build/test pipeline.  
+#### • Sprint 2: Patient & doctor CRUD, Docker containerization, publish pipeline.   
+#### • Sprint 3: Scheduling with double-booking prevention, viewing medical notes, CSV export, CD deployment.   
+#### • Sprint 4: Tests, monitoring/observability dashboard, double check README  docs.
+#### Ceremonies
+#### • Ceremony 1: When: Day 1 of the sprint (30–60 mins). What you do: Pick top backlog items and break them into tasks. What it produces: Sprint Backlog and Sprint Goal. 
+#### • Ceremony 2: When: Last day of the sprint (30 mins). What you do: Demo working software to hypothetical user. What it produces: Feedback added to the backlog
+#### • Ceremony 3: When: Right after Ceremony 2 (20 mins). What you do: Reflect on what went well and what didn't. What it produces: At least one actionable process change for the next sprint. 
+
+
 
 
 
