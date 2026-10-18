@@ -312,7 +312,7 @@
 Observability: Spring Boot Actuator, Prometheus, and Grafana (for system metrics and operational dashboards).
 
 **Branch Naming Convention**
-<issue-number>-<story-or-task-id>-<short-description>
+``<issue-number>-<story-or-task-id>-<short-description>``
 
 
 
