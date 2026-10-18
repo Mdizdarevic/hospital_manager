@@ -311,9 +311,8 @@
 - **CI/CD Pipeline**: GitHub Actions (for automated testing on pull requests and automated image publishing to GHCR).
 Observability: Spring Boot Actuator, Prometheus, and Grafana (for system metrics and operational dashboards).
 
-
-
-
+**Branch Naming Convention**
+<issue-number>-<story-or-task-id>-<short-description>
 
 
 
