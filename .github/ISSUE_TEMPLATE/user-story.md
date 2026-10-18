@@ -25,22 +25,3 @@ Blocked by: #<issue number> (set it in the Relationships panel as well)
 ## Story Points
 <value from the Lab 2 scale>
 ```
-
-And a lighter template for tasks, `.github/ISSUE_TEMPLATE/task.md`:
-
-```markdown
----
-name: Task
-about: An implementable unit of work within a User Story
-labels: task
----
-
-## Description
-...
-
-## Parent user story
-#<issue number>
-
-## Done when
-- [ ] ...
-```
