@@ -1,4 +1,4 @@
-# Hospital Management - DevOps Project
+# Hospital Management - DevOps Project. 
 
 ## 1. Project overview
 #### A simple hospital administration web app, with various features and different roles (i.e. patient, doctor, etc), each with their own privileges. The deliverable is a working DevOps pipeline, not necessarily the implementation of the application.
